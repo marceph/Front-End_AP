@@ -1,8 +1,8 @@
 * {
     background-color: aqua;
-    margin: 0em;
-    padding: 0.4em;
-    margin-left: 2px;
+    margin: 0px;
+    padding: 0.1em;
+    margin-left: 0px;
 }
 
 section * {
@@ -11,8 +11,33 @@ section * {
 }
 
 section {
-    margin: 1.2em;
+    margin: 40px;
+    width: 97.8%;
     border: 3px solid #0c53a5;
-    padding: 0em;
-    margin-left: 20px;
+    padding: 0.9em;
+    margin-left: 0px;
+}
+
+header {
+    background-color: black;
+    margin: 0em;
+}
+
+nav {
+    background-color: blueviolet;
+    margin: 0em;
+}
+
+.nestor {
+    margin-left: 400px;
+}
+
+aside {
+    background-color: #ecebbe;
+    margin: 0em;
+}
+
+footer {
+    background-color: #778537;
+    margin: 0em;
 }
