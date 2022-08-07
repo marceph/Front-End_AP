@@ -2,6 +2,7 @@
     background-color: aqua;
     margin: 0 4em;
     padding: 0.1em;
+    /*overflow-y: hidden; oculta la barra de desplazamiento*/
 }
 
 section * {
@@ -22,6 +23,10 @@ ol {
 
 ul {
     margin-left: 2%;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
