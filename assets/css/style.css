@@ -1,21 +1,27 @@
 * {
     background-color: aqua;
-    margin: 0px;
+    margin: 0 4em;
     padding: 0.1em;
-    margin-left: 0px;
 }
 
 section * {
     background-color: rgb(178, 241, 246);
-    margin: 0em;
+    margin: 0;
+    align-content: center;
 }
 
 section {
-    margin: 40px;
-    width: 97.8%;
-    border: 3px solid #0c53a5;
-    padding: 0.9em;
-    margin-left: 0px;
+    margin: 3%;
+    border: .2em solid #0c53a5;
+    /*padding: 0.9em;*/
+}
+
+ol {
+    margin-left: 2%;
+}
+
+ul {
+    margin-left: 2%;
 }
 
 header {
@@ -29,8 +35,8 @@ nav {
 }
 
 .ninoimg {
-    margin-left: 260px;
     width: 60%;
+    margin: 0 18%;
 }
 
 aside {
