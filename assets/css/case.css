@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: aliceblue;
 }
 .container{
     position: relative;
@@ -27,11 +28,17 @@
 }
 
 h1 {
-    color: white;
-    padding: 4.4em;
     margin: 0;
     size: 20;
 }
 .contenido {
-    margin: 0;
+    margin-left: 10%;
+}
+
+.contenido h2 a:hover {
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none;
 }

@@ -1,0 +1,14 @@
+* {
+    background-color: #252525;
+    color: aliceblue;
+    /*background-image: url(../img/nino.png);*/
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
