@@ -6,14 +6,16 @@
 }
 
 section * {
-    background-color: rgb(178, 241, 246);
+    background-color: #b2f1f6;
     margin: 0;
     align-content: center;
 }
 
 section {
     margin: 3%;
-    border: .2em solid #0c53a5;
+    border: .2em solid #18549a;
+    border-radius: 2em;
+    border: 1em groove #093a71;
     /*padding: 0.9em;*/
 }
 
@@ -32,24 +34,31 @@ a {
 header {
     background-color: black;
     margin: 0em;
+    border-radius: 2em;
+    border: .5em groove #736868;
 }
 
 nav {
     background-color: blueviolet;
     margin: 0em;
+    border-radius: 2em;
+    border: .5em groove #093a71;
 }
 
 .ninoimg {
     width: 60%;
+    border-radius: 2em;
     /*margin: 0 18%;*/
 }
 
 aside {
     background-color: #ecebbe;
     margin: 0em;
+    border-radius: 2em;
 }
 
 footer {
     background-color: #778537;
     margin: 0em;
+    border-radius: 2em;
 }
