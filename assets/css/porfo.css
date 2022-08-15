@@ -10,5 +10,15 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: red;
+    color: white;
+}
+
+.social {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.social a {
+    margin: 9px;
 }
