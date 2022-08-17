@@ -1,19 +1,16 @@
-* {
-    /*background-color: #252525;*/
-    color: aliceblue;
-    /*background-image: url(../img/nino.png);*/
-}
-
-body {
+*{
     margin: 0;
+    padding: 0;
+    color: #fff;
+    overflow-y: hidden;
 }
 
-.container {
+.container{
     position: relative;
     height: 100vh;
 }
 
-.video-container {
+.video-container{
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -21,13 +18,51 @@ body {
     overflow: hidden;
 }
 
+.video-container video{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+}
+
+.article {
+    position: absolute;
+    margin: 100px;
+    margin-left: 7%;
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+article h1 {
+    font-size: 40px;
+}
+
+article h2 a {
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    color: #000;
+    font-family: Arial;
+    padding: 6px;
+}
+
+article h2 a:hover {
+    padding: 9px;
+}
+
+
 a {
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: none;
-    color: #8a2be2;
+    color: #ffa500;
 }
 
 .social {
@@ -42,13 +77,6 @@ a:hover {
 
 .navMenu {
     position: absolute;
-    top: 15px;
-    right: 10px;
-}
-
-.article {
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 30px;
-    font-size: 25px;
+    top: 30px;
+    right: 30px;
 }

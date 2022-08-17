@@ -4,10 +4,12 @@
     box-sizing: border-box;
     color: aliceblue;
 }
+
 .container{
     position: relative;
     height: 100vh;
 }
+
 .video-container{
     position: absolute;
     z-index: -3;
@@ -17,6 +19,7 @@
     height: 100%;
     overflow: hidden;
 }
+
 .video-container video{
     position: relative;
     top: 50%;
@@ -31,7 +34,7 @@
     position: absolute;
     margin-left: 7%;
     margin-top: 20%;
-    size: 20em;
+    font-size: 20px;
 }
 
 h1 {
