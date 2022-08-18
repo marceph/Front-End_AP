@@ -1,5 +1,5 @@
 * {
-    background-color: aqua;
+    background-color: #00ffff;
     margin: 0 4em;
     padding: 0.1em;
     /*overflow-y: hidden; oculta la barra de desplazamiento*/
@@ -33,7 +33,7 @@ a {
 }
 
 header {
-    background-color: black;
+    background-color: #000;
     margin: 0em;
     border-radius: 2em;
     border: .5em groove #736868;
@@ -41,7 +41,7 @@ header {
 }
 
 nav {
-    background-color: blueviolet;
+    background-color: #8a2be2;
     margin: 0em;
     border-radius: 2em;
     border: .5em groove #093a71;

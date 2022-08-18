@@ -80,3 +80,9 @@ a:hover {
     top: 30px;
     right: 30px;
 }
+
+@media only screen and (max-width 600px) {
+    .article {
+        margin-top: 50%;
+    }
+}
