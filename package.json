@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "name": "front-end_ap",
+  "description": "Estado de los archivos\r U : Untrackede files (Git todabía no tiene regístro)\r M : modified (Modificado)\r A : Added (Agregado)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceph/Front-End_AP.git"
+  },
+  "author": "marceph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marceph/Front-End_AP/issues"
+  },
+  "homepage": "https://github.com/marceph/Front-End_AP#readme"
+}
