@@ -6,6 +6,7 @@ if(edad >= 18){
 } else {
     alert(`Hola ${nombre}, usted no es mayor de edad`);
 }
+console.log(nombre);
 
 
 /*let numero1 = numero % 5;
